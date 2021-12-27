@@ -17,10 +17,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 #Read env variables
-TOKEN = os.environ['TOKEN']
+TOKEN = os.environ['5078922642:AAHhrM7-KebuCguGVsRu1KvI0nmqpx-6KA4']
 baseURL = os.environ['baseURL'] 
 affiliate_tag = os.environ['affiliate_tag']
-HEROKU_URL = os.environ['HEROKU_URL']
+HEROKU_URL = os.environ['https://git.heroku.com/hndiabotfghjjvy.git']
 
 # baseURL should have https and www before amazon, but we also want to detect URL without it
 # Ensure that we can detect all but the baseURL has the correct https URL
